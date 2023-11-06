@@ -7,7 +7,7 @@ One of the main things I want to accomplish with this new portfolio is an expand
 Also, my first portfolio is pretty dark, I want this one to be brighter and more dynamic. So that's what I'm going for.
 
 ### 11/6/23:
-
+---
 Init commit.
 
 Also added some basic file structure and some styling to the header. I've found that I really like nesting my components into the sections where they go. It helps to keep the Components folder looking clean and I think is much more descriptive as to what's happening in each component.
