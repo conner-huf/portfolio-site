@@ -9,7 +9,7 @@ export const ProjectDisplay = ({ projects }) => {
       <div className="project-container">
         {projects.map((project) => (
           <div className="project-card" key={project.id}>
-            <img src={project.img} alt={project.title} />
+            <img src={require(`../../${project.img}`).default} alt={project.title} />
             <div className='layer'>
               <h3>{project.title}</h3>
               <p>{project.description}</p>

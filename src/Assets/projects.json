@@ -1,43 +1,43 @@
 [
     {
         "id": 1,
-        "title": "TITLE",
-        "img": "IMG-PATH-HERE",
+        "title": "Restaurant Site",
+        "img": "Assets/project-restaurant-site.png",
         "description": "DESCRIPTION-HERE",
         "link": "LINK-HERE"
     },
     {
         "id": 2,
         "title": "TITLE",
-        "img": "IMG-PATH-HERE",
+        "img": "Assets/project-restaurant-site.png",
         "description": "DESCRIPTION-HERE",
         "link": "LINK-HERE"
     },
     {
         "id": 3,
         "title": "TITLE",
-        "img": "IMG-PATH-HERE",
+        "img": "Assets/project-restaurant-site.png",
         "description": "DESCRIPTION-HERE",
         "link": "LINK-HERE"
     },
     {
         "id": 4,
         "title": "TITLE",
-        "img": "IMG-PATH-HERE",
+        "img": "Assets/project-restaurant-site.png",
         "description": "DESCRIPTION-HERE",
         "link": "LINK-HERE"
     },
     {
         "id": 5,
         "title": "TITLE",
-        "img": "IMG-PATH-HERE",
+        "img": "Assets/project-restaurant-site.png",
         "description": "DESCRIPTION-HERE",
         "link": "LINK-HERE"
     },
     {
         "id": 6,
         "title": "TITLE",
-        "img": "IMG-PATH-HERE",
+        "img": "Assets/project-restaurant-site.png",
         "description": "DESCRIPTION-HERE",
         "link": "LINK-HERE"
     }
