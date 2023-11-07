@@ -1,0 +1,12 @@
+.footer-container {
+    margin-top: 3rem;
+}
+
+.footer-content {
+    font-size: 1.3rem;
+    font-weight: 700;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: 0.2rem;
+}

@@ -1,0 +1,22 @@
+.hero-main-section {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero-section1 {
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    margin: 15rem;
+    font-size: 3rem;
+    font-weight: 800;
+}
+
+.hero-section2 {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 15rem;
+    font-size: 3rem;
+    font-weight: 800;
+}

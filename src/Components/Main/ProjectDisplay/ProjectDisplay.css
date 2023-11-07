@@ -1,0 +1,37 @@
+.project-backdrop {
+    background: linear-gradient(#3c3c3c00, 65%, #cfcfd280);
+    border-radius: 1.5rem;
+}
+
+.project-backdrop > p {
+    font-size: 2rem;
+    text-align: center;
+}
+
+.project-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+.project-card {
+    aspect-ratio: 16 / 9;
+    width: 35rem;
+    margin: 1rem;
+    padding: 1rem;
+    background-color: #f5f5f5;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+.project-card img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+}
+
+.project-card h2 {
+    margin: 10px 0;
+}

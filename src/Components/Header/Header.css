@@ -2,7 +2,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background: linear-gradient(#3d3d3d75, 80%, #3d3d3d00);
-
+    background: linear-gradient(#cfcfd280, 55%, #3c3c3c00);
+    border-radius: 1.5rem;
     margin-top: 2vh;
 }
