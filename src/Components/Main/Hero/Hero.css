@@ -12,6 +12,10 @@
     font-weight: 800;
 }
 
+.hero-section1 span {
+    color: #F5E81A;
+}
+
 .hero-section2 {
     justify-content: center;
     align-items: center;

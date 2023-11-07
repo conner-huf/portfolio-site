@@ -5,18 +5,23 @@ ul {
     list-style-type: none;
 }
 
-li {
+.nav-link {
     margin: 2vh 1.5vw;
     font-size: 1.5em;
     font-weight: 700;
+    text-decoration: none;
+    color: black;
     transition: 0.25s;
 }
 
-li:hover {
-    scale: 1.2;
-    transform: translateY(-0.2em);
-    cursor: pointer;
-    color: #F5E81A;
+li {
+    text-decoration: none;
     transition: 0.25s;
-    outline: 0.1em solid black;
+}
+
+li:hover, .nav-link:hover {
+    transform: scale(1.2) translateY(-0.2em) translateX(-0.5em);
+    cursor: pointer;
+    transition: 0.25s;
+    color: #F5E81A;
 }
