@@ -6,7 +6,7 @@ export const About = () => {
   return (
     <div className='about-content'>
         <aside className='about-section1'>
-            <h1 className='greeting'>--Hiya!</h1>
+            <h1 className='greeting'>Hi!</h1>
             <p className='about-me'>
               My name's Conner. I'm a software engineer based in Los Angeles, CA.
               <br/><br/>

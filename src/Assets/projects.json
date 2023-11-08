@@ -2,7 +2,7 @@
     {
         "id": 1,
         "title": "Restaurant Site",
-        "img": "Assets/project-restaurant-site.png",
+        "img": "../../Assets/project-restaurant-site.png",
         "description": "DESCRIPTION-HERE",
         "link": "LINK-HERE"
     },
