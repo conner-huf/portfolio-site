@@ -9,7 +9,7 @@ export const Hero = () => {
         <p>I'm a Software Developer</p>
       </aside>
       <aside className='hero-section2'>
-        <p>Section 2</p>
+        <p></p>
       </aside>
     </div>
   )
