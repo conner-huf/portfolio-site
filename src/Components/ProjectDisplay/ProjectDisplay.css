@@ -60,12 +60,30 @@ hr {
     transition: height 0.5s;
 }
 
+.layer a {
+    margin-top: 20px;
+    color: #F5E81A;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 60px;
+    background: #cdcdcd90;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.layer > p {
+    max-width: 85%;
+    font-size: 1.2rem;
+}
+
 .project-card:hover .layer {
     height: 100%;
 }
 
 .project-card:hover img {
-    scale: 1.1;
+    scale: 1.15;
     transition: 0.5s;
 }
 

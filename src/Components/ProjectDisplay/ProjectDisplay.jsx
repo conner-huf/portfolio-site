@@ -17,7 +17,7 @@ export const ProjectDisplay = () => {
           <div className='layer'>
             <h3>{"Restaurant Site"}</h3>
             <p>{"A demo site for a restaurant called Little Lemon"}</p>
-            <a href="https://conner-huf.github.io/restaurant-site/" target="_blank">Visit Project</a>
+            <a href="https://conner-huf.github.io/restaurant-site/" target="_blank" rel="noreferrer"><i class="fa-solid fa-link" /></a>
           </div>
         </div>
         <div className="project-card">
@@ -25,7 +25,7 @@ export const ProjectDisplay = () => {
           <div className='layer'>
             <h3>{"E-Commerce Site"}</h3>
             <p>{"A demo E-Commerce site, built using React"}</p>
-            <a href="https://conner-huf.github.io/e-commerce-site/" target="_blank">Visit Project</a>
+            <a href="https://conner-huf.github.io/e-commerce-site/" target="_blank" rel="noreferrer"><i class="fa-solid fa-link" /></a>
           </div>
         </div>
         <div className="project-card">
@@ -33,7 +33,7 @@ export const ProjectDisplay = () => {
           <div className='layer'>
             <h3>{"Spotify Clone"}</h3>
             <p>{"Meant to work like and look like Spotify. Built using React, TailwindCSS, and Supabase"}</p>
-            <a href="https://spotify-clone-sable-three.vercel.app/" target="_blank">Visit Project</a>
+            <a href="https://spotify-clone-sable-three.vercel.app/" target="_blank" rel="noreferrer"><i class="fa-solid fa-link" /></a>
           </div>
         </div>
         <div className="project-card">
@@ -41,7 +41,7 @@ export const ProjectDisplay = () => {
           <div className='layer'>
             <h3>{"Angular Q&A Site"}</h3>
             <p>{"A site displaying answers to common questions about Angular. Built using AWS buckets, Docker, Angular, AWS Lambdas, and DynamoDB"}</p>
-            <a href="http://connerbucket1.s3-website-us-east-1.amazonaws.com/" target="_blank">Visit Project</a>
+            <a href="http://connerbucket1.s3-website-us-east-1.amazonaws.com/" target="_blank" rel="noreferrer"><i class="fa-solid fa-link" /></a>
           </div>
         </div>
       </div>

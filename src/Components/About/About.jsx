@@ -8,7 +8,7 @@ export const About = () => {
         <aside className='about-section1'>
             <h1 className='greeting'>Hi!</h1>
             <p className='about-me'>
-              My name's Conner. I'm a software engineer based in Los Angeles, CA.
+              My name's Conner. I'm a software developer based in Los Angeles, CA.
               <br/><br/>
               I specialize in developing React applications, and I specifically enjoy developing tools related to video games, movies, music, etc.
               <br/><br/>
