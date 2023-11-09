@@ -1,7 +1,7 @@
 ul {
     display: flex;
     justify-content: flex-end;
-    margin: 3vh 5vw;
+    margin: 2em 3em;
     list-style-type: none;
 }
 

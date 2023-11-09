@@ -2,7 +2,9 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background: linear-gradient(#cfcfd280, 55%, #3c3c3c00);
+    background: linear-gradient(#cfcfd290, 55%, #3c3c3c00);
     border-radius: 1rem;
     margin-top: 2vh;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
 }
