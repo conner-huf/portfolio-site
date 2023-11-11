@@ -3,7 +3,10 @@ body {
   font-family: 'Nunito', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  /*
   background-image: radial-gradient(rgb(216, 216, 84), 45%, #d67e2c);
+  */
+  background-image: radial-gradient(#f9f7f7, 45%, #bdacac);
 }
 
 code {

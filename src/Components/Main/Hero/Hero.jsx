@@ -5,11 +5,11 @@ export const Hero = () => {
   return (
     <div className='hero-main-section'>
       <aside className='hero-section1'>
-        <p>I'm <span>Conner</span></p>
-        <p>I'm a Software Developer</p>
+        <h3>I'm <span>Conner</span></h3>
+        <h5>I'm a Software Developer</h5>
       </aside>
       <aside className='hero-section2'>
-        <p></p>
+        <h5>I make Stuff!</h5>
       </aside>
     </div>
   )

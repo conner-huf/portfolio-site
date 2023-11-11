@@ -14,14 +14,21 @@
 }
 
 .hero-section1 span {
-    color: #fdfd66;
+    color: #F5E81A;
+    text-shadow: 0 0 0.15em black;;
 }
 
 .hero-section2 {
     justify-content: center;
     align-items: center;
     text-align: center;
-    margin: 15rem;
+    margin-top: 20rem;
+    margin-right: 15rem;
     font-size: 3rem;
     font-weight: 800;
+}
+
+.hero-section2 h5 {
+    margin: .25em 0;
+
 }
