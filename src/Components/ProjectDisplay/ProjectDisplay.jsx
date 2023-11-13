@@ -16,7 +16,7 @@ export const ProjectDisplay = () => {
           <img src={restaurantPic} alt={"Restaurant Site"} />
           <div className='layer'>
             <h3>{"Restaurant Site"}</h3>
-            <p>{"A demo site for a restaurant called Little Lemon"}</p>
+            <p>{"A demo site for a restaurant called Little Lemon built using React."}</p>
             <a href="https://conner-huf.github.io/restaurant-site/" target="_blank" rel="noreferrer"><i class="fa-solid fa-link" /></a>
           </div>
         </div>
