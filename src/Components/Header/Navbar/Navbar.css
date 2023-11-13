@@ -23,5 +23,5 @@ li:hover, .nav-link:hover {
     transform: scale(1.2) translateY(-0.2em) translateX(-0.5em);
     cursor: pointer;
     transition: 0.25s;
-    color: #1db954;
+    color: #e6cb0c;
 }
