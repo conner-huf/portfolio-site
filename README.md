@@ -21,3 +21,9 @@ Also added some basic file structure and some styling to the header. I've found 
 I've decided I want to use client-side routing, so I'm using react-router-dom to handle the routing to about, projects, and home pages. I've hit a bit of a snag with dynamically mapping through the json file I've building my project display from. I'm trying to record a path to an image file in that json file that corresponds to a specific project. And I want the projectDisplay.jsx file to render the image of a project on the card as it maps through the file and creates each project card. So once I finish my stuff for today, I'll revisit. If not today, then I'll revisit tomorrow. 
 
 Ended up making a quick fix by manually creating project cards for now. Still an improvement on my old portfolio but not everything I was shooting for.
+
+### 12/24/23 
+
+---
+
+I had an interview and a GameJam, so this project fell a bit to the wayside. But I'm back to adding updates to this! I changed some of the about me and drew a little pixel avatar to greet visitors to the portfolio! I just started a full-stack certification, so I'm hoping to glean the skills I need to better implement some of my original ideas to this sometime in the future. As for immediate next steps, I'm wanting to get the necessary media queries to make the navbar, background, and main content properly responsive for the edge cases. Most resolutions work great, but there are a few edge cases, mainly phone resolutions, that break the UI. So that's my next step in the project, at which point, I think I'll be happy enough with it to deploy!
