@@ -1,5 +1,6 @@
 import React from 'react'
 import './Hero.css'
+import avatar from '../../../Assets/wave_avatar.gif'
 
 export const Hero = () => {
   return (
@@ -9,7 +10,7 @@ export const Hero = () => {
         <h5>I'm a Software Developer</h5>
       </aside>
       <aside className='hero-section2'>
-        <h5>I make Stuff!</h5>
+        <img src={avatar} alt="" className="avatar"></img>
       </aside>
     </div>
   )

@@ -14,7 +14,9 @@ export const About = () => {
               <br/><br/>
               If you're interested in seeing some of the things I've worked on, check out my Projects link. You'll find some live hosted applications and sites that you can fiddle around with!
               <br/><br/>
-              As far as upcoming projects, I'm currently (as of 11/23) working on a project in Unity for a GameJam, and I've got an application I'm developing using Leaflet that I'm excited about. But you'll have to wait and see what those are, no spoilies.
+              As far as upcoming projects, I'm currently (as of 12/23) working on a Full-Stack development certification so I can continue to grow my skills in manipulating databases and backend/frontend interactions.
+              <br/><br/>
+              If you'd like to get in touch, feel free to reach out to me using the LinkedIn icon above, or shoot me an email at conner.huf@gmail.com
             </p>
         </aside>
         <aside className='about-section2'>

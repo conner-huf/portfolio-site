@@ -25,3 +25,5 @@ li:hover, .nav-link:hover {
     transition: 0.25s;
     color: #e6cb0c;
 }
+
+@media (max-width: 900px) {}
