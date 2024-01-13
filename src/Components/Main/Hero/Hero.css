@@ -22,12 +22,13 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    margin-top: 15rem;
+    margin-top: 18rem;
     margin-right: 15rem;
     font-size: 3rem;
     font-weight: 800;
 }
 
 .avatar {
-    width: 20vw;
+    max-width: 300px;
+    min-width: 300px;
 }

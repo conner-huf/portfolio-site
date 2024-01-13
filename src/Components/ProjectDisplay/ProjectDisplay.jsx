@@ -1,12 +1,11 @@
 import React from 'react'
 import './ProjectDisplay.css'
 
-import { BsLink45Deg } from "react-icons/bs";
-
 import restaurantPic from '../../Assets/project-restaurant-site.png'
 import ecommercePic from '../../Assets/project-e-commerce-site.png'
 import spotifyPic from '../../Assets/project-spotify-clone.png'
 import angularQAPic from '../../Assets/project-angular-qa-site.png'
+import asteroidsPic from '../../Assets/project-asteroids.png'
 
 export const ProjectDisplay = () => {
   return (
@@ -44,6 +43,14 @@ export const ProjectDisplay = () => {
             <h3>{"Angular Q&A Site"}</h3>
             <p>{"A site displaying answers to common questions about Angular. Built using AWS buckets, Docker, Angular, AWS Lambdas, and DynamoDB"}</p>
             <a href="http://connerbucket1.s3-website-us-east-1.amazonaws.com/" target="_blank" rel="noreferrer"><i className="fa-solid fa-link" /></a>
+          </div>
+        </div>
+        <div className="project-card">
+          <img src={asteroidsPic} alt={"Asteroids Game"} />
+          <div className='layer'>
+            <h3>{"Asteroids Game"}</h3>
+            <p>{"A game inspired by the asteroids arcade game. Built using Unity."}</p>
+            <a href="https://itzlumpz.itch.io/asteroids" target="_blank" rel="noreferrer"><i className="fa-solid fa-link" /></a>
           </div>
         </div>
       </div>

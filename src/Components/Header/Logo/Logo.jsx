@@ -8,6 +8,7 @@ export const Logo = () => {
     <div className='socials-container'>
       <SocialIcon className="social-icon" bgColor="black" url="https://www.linkedin.com/in/conner-hufnagel-070243287/" target="_blank"/>
       <SocialIcon className="social-icon" bgColor='black' url="https://github.com/conner-huf" target="_blank"/>
+      <SocialIcon className="social-icon" bgColor="black" network="itch.io" url="https://itzlumpz.itch.io/" target="_blank"/>
     </div>
   )
 }
