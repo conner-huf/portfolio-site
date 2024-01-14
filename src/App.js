@@ -4,6 +4,7 @@ import { Footer } from "./Components/Footer/Footer";
 import { Header } from "./Components/Header/Header";
 import { Main } from "./Components/Main/Main";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { Navigate } from "react-router-dom";
 import { ProjectDisplay } from "./Components/ProjectDisplay/ProjectDisplay";
 import { About } from "./Components/About/About";
 
@@ -12,6 +13,9 @@ function App() {
     <Router>
       <Header />
       <Switch>
+      <Route exact path="/portfolio-site/">
+          <Main />
+        </Route>
         <Route exact path="/">
           <Main />
         </Route>
