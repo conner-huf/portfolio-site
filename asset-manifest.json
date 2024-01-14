@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/portfolio-site/static/css/main.f0975e92.css",
+    "main.js": "/portfolio-site/static/js/main.1a1adaa7.js",
+    "static/js/787.86751347.chunk.js": "/portfolio-site/static/js/787.86751347.chunk.js",
+    "static/media/project-restaurant-site.png": "/portfolio-site/static/media/project-restaurant-site.d34a7ffce2b882273089.png",
+    "static/media/ProfilePic.png": "/portfolio-site/static/media/ProfilePic.0a2e3486a74abef2c3a4.png",
+    "static/media/project-e-commerce-site.png": "/portfolio-site/static/media/project-e-commerce-site.6ae7a2dafec09a4be4b9.png",
+    "static/media/project-asteroids.png": "/portfolio-site/static/media/project-asteroids.5cc3757668014f6b3b4f.png",
+    "static/media/project-spotify-clone.png": "/portfolio-site/static/media/project-spotify-clone.6aa5bab3800d08fcf44b.png",
+    "static/media/Resume.pdf": "/portfolio-site/static/media/Resume.b10c78fd4ba8dc5087b6.pdf",
+    "static/media/project-angular-qa-site.png": "/portfolio-site/static/media/project-angular-qa-site.37a7913f546ab4122f04.png",
+    "static/media/wave_avatar.gif": "/portfolio-site/static/media/wave_avatar.051ff2ce613a3160e8de.gif",
+    "index.html": "/portfolio-site/index.html",
+    "main.f0975e92.css.map": "/portfolio-site/static/css/main.f0975e92.css.map",
+    "main.1a1adaa7.js.map": "/portfolio-site/static/js/main.1a1adaa7.js.map",
+    "787.86751347.chunk.js.map": "/portfolio-site/static/js/787.86751347.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f0975e92.css",
+    "static/js/main.1a1adaa7.js"
+  ]
+}
