@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio-site/static/css/main.f0975e92.css",
-    "main.js": "/portfolio-site/static/js/main.1a1adaa7.js",
+    "main.js": "/portfolio-site/static/js/main.d31dc816.js",
     "static/js/787.86751347.chunk.js": "/portfolio-site/static/js/787.86751347.chunk.js",
     "static/media/project-restaurant-site.png": "/portfolio-site/static/media/project-restaurant-site.d34a7ffce2b882273089.png",
     "static/media/ProfilePic.png": "/portfolio-site/static/media/ProfilePic.0a2e3486a74abef2c3a4.png",
@@ -13,11 +13,11 @@
     "static/media/wave_avatar.gif": "/portfolio-site/static/media/wave_avatar.051ff2ce613a3160e8de.gif",
     "index.html": "/portfolio-site/index.html",
     "main.f0975e92.css.map": "/portfolio-site/static/css/main.f0975e92.css.map",
-    "main.1a1adaa7.js.map": "/portfolio-site/static/js/main.1a1adaa7.js.map",
+    "main.d31dc816.js.map": "/portfolio-site/static/js/main.d31dc816.js.map",
     "787.86751347.chunk.js.map": "/portfolio-site/static/js/787.86751347.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f0975e92.css",
-    "static/js/main.1a1adaa7.js"
+    "static/js/main.d31dc816.js"
   ]
 }
