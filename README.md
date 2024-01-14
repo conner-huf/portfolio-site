@@ -27,3 +27,9 @@ Ended up making a quick fix by manually creating project cards for now. Still an
 ---
 
 I had an interview and a GameJam, so this project fell a bit to the wayside. But I'm back to adding updates to this! I changed some of the about me and drew a little pixel avatar to greet visitors to the portfolio! I just started a full-stack certification, so I'm hoping to glean the skills I need to better implement some of my original ideas to this sometime in the future. As for immediate next steps, I'm wanting to get the necessary media queries to make the navbar, background, and main content properly responsive for the edge cases. Most resolutions work great, but there are a few edge cases, mainly phone resolutions, that break the UI. So that's my next step in the project, at which point, I think I'll be happy enough with it to deploy!
+
+### 1/13/24
+
+---
+
+I went ahead and finished up some styling and added a project that I've been working on. I decided now's as good a time as any, so the site is live! I'll be adding mobile support in the coming week and adding projects as I complete them.
