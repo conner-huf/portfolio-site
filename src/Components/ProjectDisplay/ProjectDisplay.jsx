@@ -6,6 +6,7 @@ import ecommercePic from '../../Assets/project-e-commerce-site.png'
 import spotifyPic from '../../Assets/project-spotify-clone.png'
 import angularQAPic from '../../Assets/project-angular-qa-site.png'
 import asteroidsPic from '../../Assets/project-asteroids.png'
+import blenderDonutsPic from '../../Assets/project-blender.png'
 
 export const ProjectDisplay = () => {
   return (
@@ -51,6 +52,14 @@ export const ProjectDisplay = () => {
             <h3>{"Asteroids Game"}</h3>
             <p>{"A game inspired by the asteroids arcade game. Built using Unity."}</p>
             <a href="https://itzlumpz.itch.io/asteroids" target="_blank" rel="noreferrer"><i className="fa-solid fa-link" /></a>
+          </div>
+        </div>
+        <div className="project-card">
+          <img src={blenderDonutsPic} alt={"Blender Donuts"} />
+          <div className='layer'>
+            <h3>{"Blender Donuts"}</h3>
+            <p>{"A project I took on to learn some light 3D modeling. Made in Blender."}</p>
+            <a href="" target="_blank" rel="noreferrer"><i className="fa-solid fa-link" /></a>
           </div>
         </div>
       </div>
