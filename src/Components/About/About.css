@@ -36,11 +36,24 @@
     .about-content {
         flex-direction: column-reverse;
         align-items: center;
+        justify-content: center;
     }
 
     .profilePic {
         width: 80vw;
         margin-right: 0;
         margin-top: 2vh;
+    }
+    .about-me {
+        margin: 0;
+        justify-content: center;
+        align-items: center;
+        font-weight: 400;
+        font-size: 1.5em;
+    }
+    .about-section1 {
+        justify-content: center;
+        text-align: left;
+        margin: 0;
     }
 }
