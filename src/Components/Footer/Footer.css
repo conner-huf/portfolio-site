@@ -16,3 +16,14 @@
     align-items: center;
     margin: 0.2rem;
 }
+
+@media (max-width: 1000px) {
+    .footer-container {
+        margin: 0;
+        justify-content: space-between;
+        margin-right: 0;
+    }
+    .footer-content {
+        font-size: .9rem;
+    }
+}
