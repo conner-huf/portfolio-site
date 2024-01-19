@@ -1,3 +1,5 @@
+
+
 .about-page {
     min-height: 75vh;
     display: flex;
@@ -7,13 +9,12 @@
 }
 
 .greeting {
-    margin: 0.8em 2.6em;
+    margin: 0.5em 2em;
     font-size: 3.5em;
 }
 
 .about-me-text {
-    max-width: 50vw;
-    margin: 1.8em 6em;
+    margin: 0.5em 2em;
     font-weight: 400;
     font-size: 1.5em;
 }
@@ -21,15 +22,13 @@
 .about-pic-section {
     justify-content: flex-end;
     align-items: center;
-    text-align: center;
 }
 
 .profilePic {
     border-radius: 1.5rem;
     max-width: 600px;
     width: 35vw;
-    margin-right: 2vw;
-    margin-top: 7vh;
+    margin: 7em 3em;
 }
 
 @media (max-width: 1000px) {
@@ -42,8 +41,7 @@
 
     .profilePic {
         width: 80vw;
-        margin-right: 0;
-        margin-top: 2vh;
+        margin: 2em 0;
     }
 
     .about-me-text {

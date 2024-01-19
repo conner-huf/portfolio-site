@@ -9,10 +9,7 @@
     justify-content: center;
     align-items: center;
     text-align: left;
-    margin-top: 15rem;
-    margin-left: 15rem;
-    margin-right: 1rem;
-
+    margin: 1rem 1rem;
     font-size: 3rem;
     font-weight: 800;
 }
@@ -23,8 +20,7 @@
 }
 
 .hero-section2 {
-    margin-top: 18rem;
-    margin-right: 15rem;
+    margin: 1rem 1rem;
 }
 
 .avatar {
