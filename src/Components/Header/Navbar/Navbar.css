@@ -55,11 +55,20 @@ li:hover, .nav-link:hover {
 }
 
 @media (max-width: 1000px) {
+    .menu-container {
+        margin: 0;
+    }
+
+    ul {
+        margin: .5rem;
+    }
+
     .nav-link {
         display: none;
     }
 
     .hamburger {
+        margin: 0;
         display: flex;
     }
 
@@ -72,6 +81,7 @@ li:hover, .nav-link:hover {
         bottom: .5;
         left: 1;
         justify-content: center;
+        margin-right: 3rem;
     }
 
     .nav-links.open .nav-link {
