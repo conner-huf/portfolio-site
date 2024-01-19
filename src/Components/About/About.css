@@ -31,3 +31,16 @@
     margin-right: 2vw;
     margin-top: 7vh;
 }
+
+@media (max-width: 1000px) {
+    .about-content {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .profilePic {
+        width: 80vw;
+        margin-right: 0;
+        margin-top: 2vh;
+    }
+}

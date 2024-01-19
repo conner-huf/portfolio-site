@@ -1,3 +1,9 @@
+.menu-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
 ul {
     display: flex;
     justify-content: flex-end;
@@ -26,4 +32,50 @@ li:hover, .nav-link:hover {
     color: #e6cb0c;
 }
 
-@media (max-width: 900px) {}
+.hamburger {
+    display: none;
+    cursor: pointer;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 2rem;
+    height: 2rem;
+    background: transparent;
+    border: none;
+    z-index: 5;
+}
+
+.hamburger div {
+    width: 2rem;
+    height: 0.25rem;
+    background-color: #333;
+    border-radius: 10px;
+    transition: all 0.3s linear;
+    position: relative;
+    transform-origin: 1px;
+}
+
+@media (max-width: 1000px) {
+    .nav-link {
+        display: none;
+    }
+
+    .hamburger {
+        display: flex;
+    }
+
+    .nav-links.open {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: .5;
+        left: 1;
+        justify-content: center;
+    }
+
+    .nav-links.open .nav-link {
+        display: block;
+    }
+
+}

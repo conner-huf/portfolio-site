@@ -1,4 +1,6 @@
 .socials-container {
+    display: flex;
+    flex-direction: row;
     justify-content: flex-start;
     margin-left: 3rem;
 }
@@ -13,4 +15,11 @@
     transform: scale(1.2) translateY(-0.2em) translateX(-0.5em);
     cursor: pointer;
     transition: 0.25s;
+}
+
+@media (max-width: 1000px) {
+    .socials-container {
+        flex-direction: column;
+        align-items: center;
+    }
 }
