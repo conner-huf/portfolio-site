@@ -1,4 +1,4 @@
-.about-content {
+.about-page {
     min-height: 75vh;
     display: flex;
     flex-direction: row;
@@ -11,14 +11,14 @@
     font-size: 3.5em;
 }
 
-.about-me {
+.about-me-text {
     max-width: 50vw;
     margin: 1.8em 6em;
     font-weight: 400;
     font-size: 1.5em;
 }
 
-.about-section2 {
+.about-pic-section {
     justify-content: flex-end;
     align-items: center;
     text-align: center;
@@ -33,10 +33,11 @@
 }
 
 @media (max-width: 1000px) {
-    .about-content {
+    .about-page {
         flex-direction: column-reverse;
         align-items: center;
         justify-content: center;
+        text-align: center;
     }
 
     .profilePic {
@@ -44,14 +45,15 @@
         margin-right: 0;
         margin-top: 2vh;
     }
-    .about-me {
-        margin: 0;
+
+    .about-me-text {
         justify-content: center;
         align-items: center;
         font-weight: 400;
         font-size: 1.5em;
     }
-    .about-section1 {
+
+    .about-text-section {
         justify-content: center;
         text-align: left;
         margin: 0;

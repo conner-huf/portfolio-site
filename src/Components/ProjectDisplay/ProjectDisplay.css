@@ -87,3 +87,9 @@ hr {
     transition: 0.5s;
 }
 
+@media (max-width: 1000px) {
+    .layer > p {
+        max-width: 85%;
+        font-size: 0;
+    }
+}
