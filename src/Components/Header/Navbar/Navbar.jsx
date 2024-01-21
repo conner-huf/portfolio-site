@@ -16,21 +16,21 @@ export const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav ref={navRef}>
-      <div className="menu-container">
+    <header ref={navRef}>
+      <nav className="menu-container">
         <ul className={isOpen ? 'nav-links open' : 'nav-links'}>
           <li><Link to='/' className="nav-link">Home</Link></li>
           <li><Link to='/about' className="nav-link">About Me</Link></li>
-          <li><Link to='projects' className="nav-link">Projects</Link></li>
+          <li><Link to='/projects' className="nav-link">Projects</Link></li>
           <li><a href={resume} download className="nav-link">Resume</a></li>
         </ul>
         <button className="nav-btn nav-close-btn" onClick={showNavBar}>
           <FaBars />
         </button>
-      </div>
+      </nav>
       <button className="nav-btn" onClick={showNavBar}>
           <FaTimes />
       </button>
-    </nav>
+    </header>
   )
 }
