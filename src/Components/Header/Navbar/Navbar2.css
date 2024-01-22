@@ -49,6 +49,10 @@ header .nav-btn {
     font-size: 1.8rem;
 }
 
+.nav-btn:active, .nav-btn:focus, .nav-btn:hover {
+    color: black;
+}
+
 @media only screen and (max-width: 1000px) {
     .socials {
         display: none;
