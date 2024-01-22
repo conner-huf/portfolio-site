@@ -18,11 +18,11 @@ function App() {
         <Route exact path="/">
           <Main />
         </Route>
-        <Route path="/projects">
-          <ProjectDisplay projects={projects}/>
-        </Route>
         <Route path="/about">
           <About />
+        </Route>
+        <Route path="/projects">
+          <ProjectDisplay projects={projects}/>
         </Route>
       </Switch>
       <Footer />

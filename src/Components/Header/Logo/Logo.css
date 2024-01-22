@@ -19,8 +19,7 @@
 
 @media (max-width: 1000px) {
     .socials-container {
-        flex-direction: column;
-        align-items: center;
+
         margin: 0;
         padding: 0;
     }
