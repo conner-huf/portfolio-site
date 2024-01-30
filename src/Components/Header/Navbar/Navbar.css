@@ -25,6 +25,16 @@ ul {
     transition: 0.25s;
 }
 
+.nav-btn {
+    color: black;
+}
+
+.nav-btn:hover,
+.nav-btn:active,
+.nav-btn:focus {
+    color: black;
+}
+
 li {
     text-decoration: none;
     transition: 0.25s;
