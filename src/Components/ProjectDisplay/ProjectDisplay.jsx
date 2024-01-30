@@ -6,7 +6,9 @@ import ecommercePic from '../../Assets/project-e-commerce-site.png'
 import spotifyPic from '../../Assets/project-spotify-clone.png'
 import angularQAPic from '../../Assets/project-angular-qa-site.png'
 import asteroidsPic from '../../Assets/project-asteroids.png'
-import blenderDonutsPic from '../../Assets/project-blender.png'
+import blenderDonutsPic from '../../Assets/project-blenderDonuts.png'
+import blenderBearPic from '../../Assets/project-blenderBear.png'
+import pokedexPic from '../../Assets/project-pokedex.png'
 
 export const ProjectDisplay = () => {
   return (
@@ -60,6 +62,22 @@ export const ProjectDisplay = () => {
             <h3>{"Blender Donuts"}</h3>
             <p>{"A project I took on to learn some light 3D modeling. Made in Blender."}</p>
             <a href="https://sketchfab.com/3d-models/donut-iso-a4c4239e39c64d69902f583b03800d4c" target="_blank" rel="noreferrer"><i className="fa-solid fa-link" /></a>
+          </div>
+        </div>
+        <div className="project-card">
+          <img src={blenderBearPic} alt={"Blender Bear"} />
+          <div className='layer'>
+            <h3>{"Blender Bear"}</h3>
+            <p>{"A bear character, currently building out skeleton rigging. Made in Blender."}</p>
+            <a href="https://sketchfab.com/3d-models/bear-02f69c5f9a4b425eb3b36e1736b71cbb" target="_blank" rel="noreferrer"><i className="fa-solid fa-link" /></a>
+          </div>
+        </div>
+        <div className="project-card">
+          <img src={pokedexPic} alt={"Pokedex Application"} />
+          <div className='layer'>
+            <h3>{"Pokedex Application"}</h3>
+            <p>{"An application that fetches data from the PokeApi to display information on the Pokemon game series. Made using React, PokeApi.co, and Node.js. (Currently in active development)"}</p>
+            <a href="https://github.com/conner-huf/pokedex" target="_blank" rel="noreferrer"><i className="fa-solid fa-link" /></a>
           </div>
         </div>
       </div>
