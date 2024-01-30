@@ -85,4 +85,12 @@ header .nav-btn {
         transform: none;
     }
 
+    .nav-btn {
+        color: black;
+    }
+
+    .nav-btn:active, .nav-btn:focus, .nav-btn:hover {
+        color: black;
+    }
+
 }
