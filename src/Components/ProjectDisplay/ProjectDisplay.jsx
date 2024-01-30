@@ -9,6 +9,7 @@ import asteroidsPic from '../../Assets/project-asteroids.png'
 import blenderDonutsPic from '../../Assets/project-blenderDonuts.png'
 import blenderBearPic from '../../Assets/project-blenderBear.png'
 import pokedexPic from '../../Assets/project-pokedex.png'
+import portfolioPic from '../../Assets/project-portfolio.png'
 
 export const ProjectDisplay = () => {
   return (
@@ -78,6 +79,14 @@ export const ProjectDisplay = () => {
             <h3>{"Pokedex Application"}</h3>
             <p>{"An application that fetches data from the PokeApi to display information on the Pokemon game series. Made using React, PokeApi.co, and Node.js. (Currently in active development)"}</p>
             <a href="https://github.com/conner-huf/pokedex" target="_blank" rel="noreferrer"><i className="fa-solid fa-link" /></a>
+          </div>
+        </div>
+        <div className="project-card">
+          <img src={portfolioPic} alt={"Portfolio Site"} />
+          <div className='layer'>
+            <h3>{"Portfolio Site"}</h3>
+            <p>{"The website you're seeing this on! I made this website using React and it is constantly being updated, refactored, and expanded."}</p>
+            <a href="https://github.com/conner-huf/portfolio-site" target="_blank" rel="noreferrer"><i className="fa-solid fa-link" /></a>
           </div>
         </div>
       </div>
