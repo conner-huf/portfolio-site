@@ -1,12 +1,13 @@
 {
   "files": {
     "main.css": "/portfolio-site/static/css/main.c2696c32.css",
-    "main.js": "/portfolio-site/static/js/main.968f6e14.js",
+    "main.js": "/portfolio-site/static/js/main.07fd70ce.js",
     "static/js/787.86751347.chunk.js": "/portfolio-site/static/js/787.86751347.chunk.js",
     "static/media/project-blenderDonuts.png": "/portfolio-site/static/media/project-blenderDonuts.9a3ac1514725279f54f5.png",
     "static/media/project-blenderBear.png": "/portfolio-site/static/media/project-blenderBear.b5ada32fdf9e6c8eb5e6.png",
     "static/media/project-restaurant-site.png": "/portfolio-site/static/media/project-restaurant-site.d34a7ffce2b882273089.png",
     "static/media/ProfilePic.png": "/portfolio-site/static/media/ProfilePic.0a2e3486a74abef2c3a4.png",
+    "static/media/project-portfolio.png": "/portfolio-site/static/media/project-portfolio.781ae94fbf0b13b53f31.png",
     "static/media/project-e-commerce-site.png": "/portfolio-site/static/media/project-e-commerce-site.6ae7a2dafec09a4be4b9.png",
     "static/media/project-pokedex.png": "/portfolio-site/static/media/project-pokedex.81de56fbf2063066224d.png",
     "static/media/project-asteroids.png": "/portfolio-site/static/media/project-asteroids.5cc3757668014f6b3b4f.png",
@@ -16,11 +17,11 @@
     "static/media/wave_avatar.gif": "/portfolio-site/static/media/wave_avatar.051ff2ce613a3160e8de.gif",
     "index.html": "/portfolio-site/index.html",
     "main.c2696c32.css.map": "/portfolio-site/static/css/main.c2696c32.css.map",
-    "main.968f6e14.js.map": "/portfolio-site/static/js/main.968f6e14.js.map",
+    "main.07fd70ce.js.map": "/portfolio-site/static/js/main.07fd70ce.js.map",
     "787.86751347.chunk.js.map": "/portfolio-site/static/js/787.86751347.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c2696c32.css",
-    "static/js/main.968f6e14.js"
+    "static/js/main.07fd70ce.js"
   ]
 }
