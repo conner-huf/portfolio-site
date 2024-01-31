@@ -47,6 +47,7 @@ header .nav-btn {
     visibility: hidden;
     opacity: 0;
     font-size: 1.8rem;
+    color: black;
 }
 
 .nav-btn:active, .nav-btn:focus, .nav-btn:hover {
@@ -75,7 +76,7 @@ header .nav-btn {
         align-items: center;
         justify-content: center;
         gap: 1.5rem;
-        background-color: #3d3d3d7d;
+        background: #cbcbcbcb;
         transition: .5s;
         transform: translateY(-100vh);
         z-index: 9999;
