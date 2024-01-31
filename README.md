@@ -33,3 +33,9 @@ I had an interview and a GameJam, so this project fell a bit to the wayside. But
 ---
 
 I went ahead and finished up some styling and added a project that I've been working on. I decided now's as good a time as any, so the site is live! I'll be adding mobile support in the coming week and adding projects as I complete them.
+
+### 1/29/24
+
+---
+
+I went back and forth on whether or not I should have blender projects on my portfolio, ultimately I decided I could put them there. I'm not really looking for 3D modeling jobs or art-forward roles professionally, but I enjoy doing it so I don't think it's a detriment. I've had an issue with my buttons on mobile taking on that hyperlink blue color, but should be fixed now.

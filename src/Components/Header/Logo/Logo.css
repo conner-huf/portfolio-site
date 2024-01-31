@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
-    margin-left: 3rem;
+    margin-left: 1rem;
 }
 
 .social-icon {
@@ -19,8 +19,17 @@
 
 @media (max-width: 1000px) {
     .socials-container {
-
-        margin: 0;
+        margin-left: 0;
         padding: 0;
+    }
+
+    .social-icon {
+        margin: 1rem .5rem;
+    }
+
+    .social-icon:hover {
+        transform: scale(1.2) translateY(-0.2em) translateX(0em);
+        cursor: pointer;
+        transition: 0.25s;
     }
 }

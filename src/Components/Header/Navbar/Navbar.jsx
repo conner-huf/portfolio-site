@@ -3,7 +3,7 @@ import { Logo } from '../Logo/Logo';
 import { Link } from 'react-router-dom'
 import { FaBars, FaTimes } from 'react-icons/fa';
 
-import './Navbar2.css'
+import './Navbar.css'
 import resume from '../../../Assets/Resume.pdf'
 
 export const Navbar = () => {
