@@ -10,7 +10,7 @@ export const About = () => {
             <p className='about-me-text'>
               My name's Conner. I'm a software developer based in Los Angeles, CA.
               <br/><br/>
-              I specialize in developing React applications, and I specifically enjoy developing tools related to video games, movies, music, etc.
+              I specialize in developing React applications, and I especially enjoy developing tools related to video games, movies, music, etc.
               <br/><br/>
               If you're interested in seeing some of the things I've worked on, check out my Projects link. You'll find some live hosted applications and sites that you can fiddle around with!
               <br/><br/>
