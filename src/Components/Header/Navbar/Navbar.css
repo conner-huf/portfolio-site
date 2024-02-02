@@ -75,7 +75,7 @@ header .nav-btn {
         align-items: center;
         justify-content: center;
         gap: 1.5rem;
-        background-color: #3d3d3d7d;
+        background-color: #2e2e2ec3;
         transition: .5s;
         transform: translateY(-100vh);
         z-index: 9999;
@@ -87,6 +87,14 @@ header .nav-btn {
 
     .nav-btn {
         color: black;
+    }
+
+    .nav-link {
+        color: #c9c9c9;
+    }
+
+    .nav-close-btn {
+        color: #c9c9c9;
     }
 
     .nav-btn:active, .nav-btn:focus, .nav-btn:hover {

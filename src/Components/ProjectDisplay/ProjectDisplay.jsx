@@ -17,15 +17,6 @@ export const ProjectDisplay = () => {
       <p>Featured Projects:</p>
       <hr />
       <div className="project-container">
-        
-        <div className="project-card">
-          <img src={portfolioPic} alt={"Portfolio Site"} />
-          <div className='layer'>
-            <h3>{"Portfolio Site"}</h3>
-            <p>{"The website you're seeing this on! I made this website using React and it is constantly being updated, refactored, and expanded."}</p>
-            <a href="https://github.com/conner-huf/portfolio-site" target="_blank" rel="noreferrer"><i className="fa-solid fa-link" /></a>
-          </div>
-        </div>
 
         <div className="project-card">
           <img src={pokedexPic} alt={"Pokedex Application"} />
@@ -96,6 +87,15 @@ export const ProjectDisplay = () => {
             <h3>{"Blender Bear"}</h3>
             <p>{"A bear character, currently building out skeleton rigging. Made in Blender."}</p>
             <a href="https://sketchfab.com/3d-models/bear-02f69c5f9a4b425eb3b36e1736b71cbb" target="_blank" rel="noreferrer"><i className="fa-solid fa-link" /></a>
+          </div>
+        </div>
+
+        <div className="project-card">
+          <img src={portfolioPic} alt={"Portfolio Site"} />
+          <div className='layer'>
+            <h3>{"Portfolio Site"}</h3>
+            <p>{"The website you're seeing this on! I made this website using React and it is constantly being updated, refactored, and expanded."}</p>
+            <a href="https://github.com/conner-huf/portfolio-site" target="_blank" rel="noreferrer"><i className="fa-solid fa-link" /></a>
           </div>
         </div>
         
