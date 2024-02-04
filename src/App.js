@@ -7,6 +7,8 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import { ProjectDisplay } from "./Components/ProjectDisplay/ProjectDisplay";
 import { About } from "./Components/About/About";
 
+import './App.css';
+
 function App() {
   return (
     <Router>

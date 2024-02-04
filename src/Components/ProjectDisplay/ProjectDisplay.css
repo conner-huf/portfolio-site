@@ -92,4 +92,7 @@ hr {
         max-width: 85%;
         font-size: 0;
     }
+    .project-container {
+        margin-bottom: 2.5rem;
+    }
 }
