@@ -23,7 +23,7 @@ export const ProjectDisplay = () => {
           <img src={pokedexPic} alt={"Pokedex Application"} />
           <div className='layer'>
             <h3>{"Pokedex Application"}</h3>
-            <p>{"An application that fetches data from the PokeApi to display information on the Pokemon game series. Made using React, PokeApi.co, and Node.js. (Currently in development)"}</p>
+            <p>{"An application that fetches data from the PokeApi to display information on the Pokemon game series. Made using React, PokeApi.co, and Node.js."}</p>
             <a href="https://conner-huf.github.io/pokedex/" target="_blank" rel="noreferrer"><i className="fa-solid fa-link" /></a>
           </div>
         </div>
