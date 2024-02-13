@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio-site/static/css/main.d532635f.css",
-    "main.js": "/portfolio-site/static/js/main.bb634bc5.js",
+    "main.js": "/portfolio-site/static/js/main.347bba12.js",
     "static/js/787.86751347.chunk.js": "/portfolio-site/static/js/787.86751347.chunk.js",
     "static/media/project-blenderDonuts.png": "/portfolio-site/static/media/project-blenderDonuts.9a3ac1514725279f54f5.png",
     "static/media/project-blenderBear.png": "/portfolio-site/static/media/project-blenderBear.b5ada32fdf9e6c8eb5e6.png",
@@ -14,14 +14,15 @@
     "static/media/project-spotify-clone.png": "/portfolio-site/static/media/project-spotify-clone.6aa5bab3800d08fcf44b.png",
     "static/media/Resume.pdf": "/portfolio-site/static/media/Resume.330999dca27fc0242277.pdf",
     "static/media/project-angular-qa-site.png": "/portfolio-site/static/media/project-angular-qa-site.37a7913f546ab4122f04.png",
+    "static/media/project-wow-addon.png": "/portfolio-site/static/media/project-wow-addon.8f37d43c308a7a8c2b4b.png",
     "static/media/wave_avatar.gif": "/portfolio-site/static/media/wave_avatar.051ff2ce613a3160e8de.gif",
     "index.html": "/portfolio-site/index.html",
     "main.d532635f.css.map": "/portfolio-site/static/css/main.d532635f.css.map",
-    "main.bb634bc5.js.map": "/portfolio-site/static/js/main.bb634bc5.js.map",
+    "main.347bba12.js.map": "/portfolio-site/static/js/main.347bba12.js.map",
     "787.86751347.chunk.js.map": "/portfolio-site/static/js/787.86751347.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d532635f.css",
-    "static/js/main.bb634bc5.js"
+    "static/js/main.347bba12.js"
   ]
 }
