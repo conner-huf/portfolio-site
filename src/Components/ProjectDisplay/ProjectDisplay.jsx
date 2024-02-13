@@ -10,6 +10,7 @@ import blenderDonutsPic from '../../Assets/project-blenderDonuts.png'
 import blenderBearPic from '../../Assets/project-blenderBear.png'
 import pokedexPic from '../../Assets/project-pokedex.png'
 import portfolioPic from '../../Assets/project-portfolio.png'
+import evermanaPic from '../../Assets/project-wow-addon.png'
 
 export const ProjectDisplay = () => {
   return (
@@ -51,6 +52,15 @@ export const ProjectDisplay = () => {
             <h3>{"Spotify Clone"}</h3>
             <p>{"Meant to work like and look like Spotify. Built using React, TailwindCSS, and Supabase"}</p>
             <a href="https://spotify-clone-sable-three.vercel.app/" target="_blank" rel="noreferrer"><i className="fa-solid fa-link" /></a>
+          </div>
+        </div>
+
+        <div className="project-card">
+          <img src={evermanaPic} alt={"EverMana"} />
+          <div className='layer'>
+            <h3>{"EverMana WoW Addon"}</h3>
+            <p>{"An Addon for World of Warcraft classic. This Addon displays the mana level of a druid no matter what form they're in."}</p>
+            <a href="https://github.com/conner-huf/EverMana" target="_blank" rel="noreferrer"><i className="fa-solid fa-link" /></a>
           </div>
         </div>
 
