@@ -39,3 +39,9 @@ I went ahead and finished up some styling and added a project that I've been wor
 ---
 
 I went back and forth on whether or not I should have blender projects on my portfolio, ultimately I decided I could put them there. I'm not really looking for 3D modeling jobs or art-forward roles professionally, but I enjoy doing it so I don't think it's a detriment. I've had an issue with my buttons on mobile taking on that hyperlink blue color, but should be fixed now.
+
+### 2/22/24
+
+---
+
+I've been hard at work at an application for finding local concerts, and I just updated the ol portfolio to have a little teaser screenshot of what I'm working on. 
