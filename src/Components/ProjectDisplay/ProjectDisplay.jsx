@@ -11,6 +11,7 @@ import blenderBearPic from '../../Assets/project-blenderBear.png'
 import pokedexPic from '../../Assets/project-pokedex.png'
 import portfolioPic from '../../Assets/project-portfolio.png'
 import evermanaPic from '../../Assets/project-wow-addon.png'
+import noodlePic from '../../Assets/project-noodle.png'
 
 export const ProjectDisplay = () => {
   return (
@@ -18,6 +19,15 @@ export const ProjectDisplay = () => {
       <p>Featured Projects:</p>
       <hr />
       <div className="project-container">
+
+      <div className="project-card">
+          <img src={noodlePic} alt={"Noodle"} />
+          <div className='layer'>
+            <h3>{"Noodle"}</h3>
+            <p>{"An full-stack application that for finding concerts in your local area. Uses Python Flask, React.js, Leaflet, TicketmasterAPI, SpotifyAPI. (Currently in Development)"}</p>
+            <a href="" target="_blank" rel="noreferrer"><i className="fa-solid fa-link" /></a>
+          </div>
+        </div>
 
         <div className="project-card">
           <img src={pokedexPic} alt={"Pokedex Application"} />
