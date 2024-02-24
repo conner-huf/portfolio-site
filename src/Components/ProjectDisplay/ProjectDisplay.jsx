@@ -97,7 +97,7 @@ export const ProjectDisplay = () => {
           <div className='layer'>
             <h3>{"Blender Donuts"}</h3>
             <p>{"A project I took on to learn some light 3D modeling. Made in Blender."}</p>
-            <a href="https://sketchfab.com/3d-models/donut-iso-a4c4239e39c64d69902f583b03800d4c" target="_blank" rel="noreferrer"><i className="fa-solid fa-link" /></a>
+            <a href="https://sketchfab.com/3d-models/donuts-c352bd5dec594444b3b5ad281454a625" target="_blank" rel="noreferrer"><i className="fa-solid fa-link" /></a>
           </div>
         </div>
 
