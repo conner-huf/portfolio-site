@@ -24,8 +24,8 @@ export const ProjectDisplay = () => {
           <img src={noodlePic} alt={"Noodle"} />
           <div className='layer'>
             <h3>{"Noodle"}</h3>
-            <p>{"An full-stack application that for finding concerts in your local area. Uses Python Flask, React.js, Leaflet, TicketmasterAPI, SpotifyAPI. (Currently in Development)"}</p>
-            <a href="" target="_blank" rel="noreferrer"><i className="fa-solid fa-link" /></a>
+            <p>{"An full-stack application that for finding concerts in your local area. Uses Python Flask, React.js, Leaflet, TicketmasterAPI, SpotifyAPI, Heroku. (Currently in Development)"}</p>
+            <a href="https://conner-huf.github.io/noodle/" target="_blank" rel="noreferrer"><i className="fa-solid fa-link" /></a>
           </div>
         </div>
 
