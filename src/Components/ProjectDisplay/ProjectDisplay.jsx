@@ -1,17 +1,23 @@
 import React from 'react'
 import './ProjectDisplay.css'
 
-import restaurantPic from '../../Assets/project-restaurant-site.png'
-import ecommercePic from '../../Assets/project-e-commerce-site.png'
-import spotifyPic from '../../Assets/project-spotify-clone.png'
+/*
+
 import angularQAPic from '../../Assets/project-angular-qa-site.png'
-import asteroidsPic from '../../Assets/project-asteroids.png'
 import blenderDonutsPic from '../../Assets/project-blenderDonuts.png'
 import blenderBearPic from '../../Assets/project-blenderBear.png'
+import ecommercePic from '../../Assets/project-e-commerce-site.png'
+
+*/
+
+import restaurantPic from '../../Assets/project-restaurant-site.png'
+import spotifyPic from '../../Assets/project-spotify-clone.png'
+import asteroidsPic from '../../Assets/project-asteroids.png'
 import pokedexPic from '../../Assets/project-pokedex.png'
 import portfolioPic from '../../Assets/project-portfolio.png'
 import evermanaPic from '../../Assets/project-wow-addon.png'
 import noodlePic from '../../Assets/project-noodle.png'
+import teenylinkPic from '../../Assets/project-teenylink.png'
 
 export const ProjectDisplay = () => {
   return (
@@ -24,7 +30,7 @@ export const ProjectDisplay = () => {
           <img src={noodlePic} alt={"Noodle"} />
           <div className='layer'>
             <h3>{"Noodle"}</h3>
-            <p>{"An full-stack application that for finding concerts in your local area. Uses Python Flask, React.js, Leaflet, TicketmasterAPI, SpotifyAPI, Heroku. (Currently in Development)"}</p>
+            <p>{"A full-stack application for finding concerts in your local area. Uses Python Flask, React.js, Leaflet, TicketmasterAPI, SpotifyAPI, Heroku. (Currently in Development)"}</p>
             <a href="https://conner-huf.github.io/noodle/" target="_blank" rel="noreferrer"><i className="fa-solid fa-link" /></a>
           </div>
         </div>
@@ -35,6 +41,15 @@ export const ProjectDisplay = () => {
             <h3>{"Pokedex Application"}</h3>
             <p>{"An application that fetches data from the PokeApi to display information on the Pokemon game series. Made using React, PokeApi.co, and Node.js."}</p>
             <a href="https://conner-huf.github.io/pokedex/" target="_blank" rel="noreferrer"><i className="fa-solid fa-link" /></a>
+          </div>
+        </div>
+
+        <div className="project-card">
+          <img src={teenylinkPic} alt={"Teeny Link"} />
+          <div className='layer'>
+            <h3>{"Teeny Link"}</h3>
+            <p>{"An application that can shorten a url. Uses Firebase to store target long URLs and generated short URLs. Made using React, Python Flask, Firebase, Heroku."}</p>
+            <a href="http://www.teeny-link.com" target="_blank" rel="noreferrer"><i className="fa-solid fa-link" /></a>
           </div>
         </div>
 
@@ -75,6 +90,39 @@ export const ProjectDisplay = () => {
         </div>
 
         <div className="project-card">
+          <img src={portfolioPic} alt={"Portfolio Site"} />
+          <div className='layer'>
+            <h3>{"Portfolio Site"}</h3>
+            <p>{"The website you're seeing this on! I made this website using React and it is constantly being updated, refactored, and expanded."}</p>
+            <a href="https://github.com/conner-huf/portfolio-site" target="_blank" rel="noreferrer"><i className="fa-solid fa-link" /></a>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+  )
+}
+
+/*
+        <div className="project-card">
+          <img src={blenderBearPic} alt={"Blender Bear"} />
+          <div className='layer'>
+            <h3>{"Blender Bear"}</h3>
+            <p>{"A bear character, currently building out skeleton rigging. Made in Blender."}</p>
+            <a href="https://sketchfab.com/3d-models/bear-02f69c5f9a4b425eb3b36e1736b71cbb" target="_blank" rel="noreferrer"><i className="fa-solid fa-link" /></a>
+          </div>
+        </div>
+
+        <div className="project-card">
+          <img src={blenderDonutsPic} alt={"Blender Donuts"} />
+          <div className='layer'>
+            <h3>{"Blender Donuts"}</h3>
+            <p>{"A project I took on to learn some light 3D modeling. Made in Blender."}</p>
+            <a href="https://sketchfab.com/3d-models/donuts-c352bd5dec594444b3b5ad281454a625" target="_blank" rel="noreferrer"><i className="fa-solid fa-link" /></a>
+          </div>
+        </div>
+
+        <div className="project-card">
           <img src={ecommercePic} alt={"E-Commerce Site"} />
           <div className='layer'>
             <h3>{"E-Commerce Site"}</h3>
@@ -91,63 +139,6 @@ export const ProjectDisplay = () => {
             <a href="http://connerbucket1.s3-website-us-east-1.amazonaws.com/" target="_blank" rel="noreferrer"><i className="fa-solid fa-link" /></a>
           </div>
         </div>
-
-        <div className="project-card">
-          <img src={blenderDonutsPic} alt={"Blender Donuts"} />
-          <div className='layer'>
-            <h3>{"Blender Donuts"}</h3>
-            <p>{"A project I took on to learn some light 3D modeling. Made in Blender."}</p>
-            <a href="https://sketchfab.com/3d-models/donuts-c352bd5dec594444b3b5ad281454a625" target="_blank" rel="noreferrer"><i className="fa-solid fa-link" /></a>
-          </div>
-        </div>
-
-        <div className="project-card">
-          <img src={blenderBearPic} alt={"Blender Bear"} />
-          <div className='layer'>
-            <h3>{"Blender Bear"}</h3>
-            <p>{"A bear character, currently building out skeleton rigging. Made in Blender."}</p>
-            <a href="https://sketchfab.com/3d-models/bear-02f69c5f9a4b425eb3b36e1736b71cbb" target="_blank" rel="noreferrer"><i className="fa-solid fa-link" /></a>
-          </div>
-        </div>
-
-        <div className="project-card">
-          <img src={portfolioPic} alt={"Portfolio Site"} />
-          <div className='layer'>
-            <h3>{"Portfolio Site"}</h3>
-            <p>{"The website you're seeing this on! I made this website using React and it is constantly being updated, refactored, and expanded."}</p>
-            <a href="https://github.com/conner-huf/portfolio-site" target="_blank" rel="noreferrer"><i className="fa-solid fa-link" /></a>
-          </div>
-        </div>
-        
-      </div>
-    </div>
-  )
-}
-
-
-// Until I can figure out how to make the json image paths work, I'm going to manually populate the project cards.
-
-/*
-export const ProjectDisplay = ({ projects }) => {
-  return (
-    <div className='project-backdrop'>
-      <p>Featured Projects:</p>
-      <hr />
-      <div className="project-container">
-        {projects.map((project) => (
-          <div className="project-card" key={project.id}>
-            <img src={require(`${project.img}`).default} alt={project.title} />
-            <div className='layer'>
-              <h3>{project.title}</h3>
-              <p>{project.description}</p>
-              <a href={project.link}>Visit Project</a>
-            </div>
-          </div>
-        ))}
-      </div>
-    </div>
-  );
-};
 */
 
 
