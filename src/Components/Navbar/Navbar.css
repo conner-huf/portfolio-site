@@ -7,13 +7,15 @@
 
 header {
     display: flex;
-    top: 0;
-    left: 0;
-    width: 100%;
+    width: 98vw;
+    height: 13vh;
     align-items: center;
     justify-content: space-between;
-    padding: 0 2rem;
+    padding: 1rem;
     color: black;
+    margin: 1vh 1vw;
+    background: linear-gradient(rgba(255, 255, 255, 0), 40%, rgba(255, 255, 255, 0.1));
+    border-radius: 1rem;
 }
 
 .menu-container {
@@ -57,6 +59,10 @@ header .nav-btn {
     .socials {
         display: none;
         visibility: hidden;
+    }
+
+    header {
+        justify-content: space-between;
     }
 
     header .nav-btn {

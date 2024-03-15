@@ -1,11 +1,12 @@
 .hero-main-section {
     display: flex;
-    min-height: 70vh;
+    height: 70vh;
     justify-content: space-around;
     align-items: center;
+    overflow-y: hidden;
 }
 
-.hero-section1 {
+.hero-text {
     justify-content: center;
     align-items: center;
     text-align: left;
@@ -14,12 +15,12 @@
     font-weight: 800;
 }
 
-.hero-section1 span {
+.hero-text span {
     color: #e6cb0c;
 
 }
 
-.hero-section2 {
+.hero-avatar {
     margin: 1rem 1rem;
 }
 
@@ -34,12 +35,12 @@
         justify-content: center;
         align-items: center;
     }
-    .hero-section2 {
+    .hero-avatar {
         order: -1;
-        margin: 2rem;
+        margin: 0;
     }
-    .hero-section1 {
-        margin: 0 0 2.5rem 0;
+    .hero-text {
+        margin: 0 0 1rem 0;
         text-align: center;
     }
 }

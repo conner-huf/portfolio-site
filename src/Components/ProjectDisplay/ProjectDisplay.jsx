@@ -22,7 +22,7 @@ import teenylinkPic from '../../Assets/project-teenylink.png'
 export const ProjectDisplay = () => {
   return (
     <div className='project-backdrop'>
-      <p>Featured Projects:</p>
+      <p>Featured Projects</p>
       <hr />
       <div className="project-container">
 

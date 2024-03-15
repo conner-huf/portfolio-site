@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 import { FaBars, FaTimes } from 'react-icons/fa';
 
 import './Navbar.css'
-import resume from '../../../Assets/Resume.pdf'
+import resume from '../../Assets/Resume.pdf'
 
 export const Navbar = () => {
 
@@ -18,7 +18,7 @@ export const Navbar = () => {
     <header>
       <Logo className="socials"/>
       <button className="nav-btn" onClick={showNavBar}>
-          <FaBars />
+        <FaBars />
       </button>
       <nav className="menu-container" ref={navRef}>
         <Link to='/' className="nav-link" onClick={showNavBar}>Home</Link>

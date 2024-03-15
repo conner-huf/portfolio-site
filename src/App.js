@@ -1,7 +1,7 @@
 import projects from '../src/Assets/projects.json'
 
 import { Footer } from "./Components/Footer/Footer";
-import { Header } from "./Components/Header/Header";
+import { Navbar } from "./Components/Navbar/Navbar";
 import { Main } from "./Components/Main/Main";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import { ProjectDisplay } from "./Components/ProjectDisplay/ProjectDisplay";
@@ -12,7 +12,7 @@ import './App.css';
 function App() {
   return (
     <Router>
-      <Header />
+      <Navbar />
       <Switch>
         <Route exact path="/portfolio-site/">
           <Main />

@@ -1,13 +1,26 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
 .footer-container {
-    padding: 0 0 1rem 0;
-    background: linear-gradient(#3c3c3c00, 55%, #cfcfd280);
+    display: flex;
+    flex-direction: column;
+    width: 98vw;
+    height: 13vh;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+    color: black;
+    margin: 1vh 1vw;
+    background: linear-gradient(rgba(255, 255, 255, 0.1), 40%, rgba(255, 255, 255, 0));
     border-radius: 1rem;
-    margin: 1rem 2rem;
 }
 
 .footer-content {
-    font-size: 1.3rem;
-    font-weight: 700;
+    font-size: 1.2rem;
+    font-weight: 600;
     text-align: center;
     justify-content: center;
     align-items: center;
@@ -16,7 +29,6 @@
 
 @media (max-width: 1000px) {
     .footer-container {
-        margin: 0;
         justify-content: space-between;
     }
     .footer-content {
