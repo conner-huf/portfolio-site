@@ -14,7 +14,7 @@
     padding: 1rem;
     color: black;
     margin: 1vh 1vw;
-    background: linear-gradient(rgba(255, 255, 255, 0.1), 40%, rgba(255, 255, 255, 0));
+    background: linear-gradient(rgba(255, 255, 255, 0), 40%, rgba(255, 255, 255, 0.1));
     border-radius: 1rem;
 }
 
