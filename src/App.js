@@ -13,21 +13,23 @@ function App() {
   return (
     <Router>
       <Navbar />
-      <Switch>
-        <Route exact path="/portfolio-site/">
-          <Main />
-        </Route>
-        <Route exact path="/">
-          <Main />
-        </Route>
-        <Route path="/about">
-          <About />
-        </Route>
-        <Route path="/projects">
-          <ProjectDisplay projects={projects}/>
-        </Route>
-      </Switch>
-      <Footer />
+
+        <Switch>
+          <Route exact path="/portfolio-site/">
+            <Main />
+          </Route>
+          <Route exact path="/">
+            <Main />
+          </Route>
+          <Route path="/about">
+            <About />
+          </Route>
+          <Route path="/projects">
+            <ProjectDisplay projects={projects}/>
+          </Route>
+        </Switch>
+        <Footer />
+
     </Router>
   );
 }

@@ -1,0 +1,12 @@
+/* For Webkit browsers like Chrome and Safari */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: rgba(133, 115, 115, 0.733);
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgba(0,0,0,0.4);
+}
