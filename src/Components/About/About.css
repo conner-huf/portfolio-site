@@ -3,7 +3,7 @@
 .about-page {
     min-height: 75vh;
     display: flex;
-    flex-direction: row;
+    flex-direction: row-reverse;
     justify-content: space-around;
     align-items: flex-start;
 }
@@ -29,6 +29,8 @@
     max-width: 600px;
     width: 35vw;
     margin: 7em 3em;
+    box-shadow: 0 0 10px 5px rgba(255, 255, 255, 0.25);
+
 }
 
 @media (max-width: 1000px) {

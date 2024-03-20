@@ -12,9 +12,9 @@
     align-items: center;
     justify-content: space-between;
     padding: 1rem;
-    color: black;
+    color: white;
     margin: 1vh 1vw;
-    background: linear-gradient(rgba(255, 255, 255, 0), 40%, rgba(255, 255, 255, 0.1));
+    background: linear-gradient(rgba(255, 255, 255, 0), 40%, rgba(255, 255, 255, 0.05));
     border-radius: 1rem;
 }
 
