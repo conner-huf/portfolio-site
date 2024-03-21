@@ -1,22 +1,9 @@
-
-
 .about-page {
-    min-height: 75vh;
+    min-height: 75svh;
     display: flex;
     flex-direction: row-reverse;
     justify-content: space-around;
     align-items: flex-start;
-}
-
-.greeting {
-    margin: 1rem 3rem;
-    font-size: 3.5em;
-}
-
-.about-me-text {
-    margin: 0.5em 2em;
-    font-weight: 400;
-    font-size: 1.5em;
 }
 
 .about-pic-section {
@@ -25,12 +12,29 @@
 }
 
 .profilePic {
+    margin: 1rem 0 0 1rem;
+
     border-radius: 1.5rem;
     max-width: 600px;
+    min-width: 450px;
     width: 35vw;
-    margin: 7em 3em;
     box-shadow: 0 0 10px 5px rgba(255, 255, 255, 0.25);
 
+}
+
+.about-text-section {
+    margin: 0 1rem;
+}
+
+.greeting {
+    margin: 0 1rem;
+    font-size: 3.5em;
+}
+
+.about-me-text {
+    margin: 0 1rem;
+    font-weight: 400;
+    font-size: 1.5em;
 }
 
 @media (max-width: 1000px) {

@@ -1,6 +1,6 @@
 .hero-main-section {
     display: flex;
-    height: 70vh;
+    height: 70svh;
     justify-content: space-around;
     align-items: center;
     overflow-y: hidden;
