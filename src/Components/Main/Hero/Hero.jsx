@@ -10,7 +10,7 @@ export const Hero = () => {
       </aside>
       <aside className='hero-text'>
         <h3>I'm <span>Conner</span></h3>
-        <h5>I'm a Software Developer</h5>
+        <p>SOFTWARE DEVELOPER</p>
       </aside>
     </div>
   )

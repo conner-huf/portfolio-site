@@ -20,6 +20,11 @@
 
 }
 
+.hero-text p {
+    margin-top: 1rem;
+    font-size: 1.3rem;
+}
+
 .hero-avatar {
     margin: 1rem 1rem;
 }
