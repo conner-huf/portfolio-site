@@ -29,10 +29,6 @@
     width: 40vw;
 }
 
-.project-image-container:hover .layer {
-    height: 100%;
-}
-
 .project-card-image {
     aspect-ratio: 16/9;
     width: 40vw;
@@ -106,10 +102,12 @@
 
     .project-card-description {
         margin: 0;
+        
     }
 
     .project-description-text {
         width: 320px;
+        font-size: .8rem;
     }
 
 
