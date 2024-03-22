@@ -1,44 +1,50 @@
 [
     {
-        "id": 1,
+        "title": "Portfolio Site",
+        "tech": "React.js, HTML, CSS, Github",
+        "description": "The site you're currently on! This is my longest running project and I'm incredibly proud of how it has turned out and improved from where it started. I'm constantly changing styles and updating content as I learn more. As soon as I start to feel comfortable with where this site is, I get a new idea to run with, so it's always changing. Hosted on Github Pages.",
+        "link": "https://conner-huf.github.io/portfolio-site/"
+    },
+    {
+        "title": "Noodle",
+        "tech": "React.js, Python, Flask, Github, Heroku, APIs",
+        "description": "A full-stack application for finding concerts in your local area. Uses Python Flask, React.js, Leaflet, TicketmasterAPI, SpotifyAPI, Heroku. (Currently in Development)",
+        "link": "https://conner-huf.github.io/noodle/"
+    },
+    {
+        "title": "Teeny Link",
+        "tech": "React.js, HTML, CSS, Github, Heroku, Python, Flask, Firebase",
+        "description": "An application that can shorten a url. Uses Firebase to store target long URLs and generated short URLs. Made using React, Python Flask, Firebase, Heroku",
+        "link": "https://www.teeny-link.com/app"
+    },
+    {
+        "title": "Asteroids Game",
+        "tech": "Unity, C#",
+        "description": "A game inspired by the asteroids arcade game. Built using Unity.",
+        "link": "https://itzlumpz.itch.io/asteroids"
+    },
+    {
+        "title": "Evermana WoW Addon",
+        "tech": "Lua, APIs, Scripts",
+        "description": "An addon I created for the popular MMO World of Warcraft. Displays the current mana points of the player in circumstances when it is not visible by default.",
+        "link": "https://github.com/conner-huf/EverMana"
+    },
+    {
+        "title": "Pokedex Application",
+        "tech": "React.js, Node.js, HTML, CSS, Github, APIs",
+        "description": "An application that fetches data from the PokeApi to display information on the Pokemon game series. Made using React, PokeApi.co, and Node.js.",
+        "link": "https://conner-huf.github.io/pokedex/"
+    },
+    {
+        "title": "Spotify Clone",
+        "tech": "React.js, Node.js, HTML, TailwindCSS, Github, Supabase",
+        "description": "A study into recreating the Spotify web application's design and functionality. Made using React.js, Node.js, TailwindCSS, Github, and Supabase.",
+        "link": "https://spotify-clone-sable-three.vercel.app/"
+    },
+    {
         "title": "Restaurant Site",
-        "img": "../../Assets/project-restaurant-site.png",
-        "description": "DESCRIPTION-HERE",
-        "link": "LINK-HERE"
-    },
-    {
-        "id": 2,
-        "title": "TITLE",
-        "img": "Assets/project-restaurant-site.png",
-        "description": "DESCRIPTION-HERE",
-        "link": "LINK-HERE"
-    },
-    {
-        "id": 3,
-        "title": "TITLE",
-        "img": "Assets/project-restaurant-site.png",
-        "description": "DESCRIPTION-HERE",
-        "link": "LINK-HERE"
-    },
-    {
-        "id": 4,
-        "title": "TITLE",
-        "img": "Assets/project-restaurant-site.png",
-        "description": "DESCRIPTION-HERE",
-        "link": "LINK-HERE"
-    },
-    {
-        "id": 5,
-        "title": "TITLE",
-        "img": "Assets/project-restaurant-site.png",
-        "description": "DESCRIPTION-HERE",
-        "link": "LINK-HERE"
-    },
-    {
-        "id": 6,
-        "title": "TITLE",
-        "img": "Assets/project-restaurant-site.png",
-        "description": "DESCRIPTION-HERE",
-        "link": "LINK-HERE"
+        "tech": "React.js, HTML, CSS, Github",
+        "description": "A demo site for a restaurant to display their menu, about page, and contact information. Made using React.js, HTML, and CSS. Hosted on Github Pages.",
+        "link": "https://conner-huf.github.io/restaurant-site/"
     }
 ]
