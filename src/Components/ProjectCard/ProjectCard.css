@@ -59,7 +59,7 @@
     flex-direction: row;
     flex-wrap: wrap;
     background: linear-gradient(#f5e61ac0, #e6cd0ccc);
-    color: black;
+    color: #10275a;
     padding: .4rem;
     border-radius: .5rem;
     height: 2rem;
@@ -102,7 +102,7 @@
 
     .project-card-description {
         margin: 0;
-        
+
     }
 
     .project-description-text {

@@ -9,6 +9,8 @@
     margin: 1rem 1rem;
     justify-content: flex-start;
     transition: 0.25s;
+    border-radius: 50%;
+    box-shadow: rgba(0, 204, 255, 0.25) 0px 0px 12px 5px;
 }
 
 .social-icon:hover {

@@ -18,7 +18,7 @@
     max-width: 600px;
     min-width: 450px;
     width: 35vw;
-    box-shadow: 0 0 10px 5px rgba(255, 255, 255, 0.25);
+    box-shadow: rgba(0, 204, 255, 0.25) 0px 0px 12px 5px;
 
 }
 
