@@ -45,3 +45,13 @@ I went back and forth on whether or not I should have blender projects on my por
 ---
 
 I've been hard at work at an application for finding local concerts, and I just updated the ol portfolio to have a little teaser screenshot of what I'm working on. 
+
+### 3/25/24
+
+---
+
+I added some updated styling (after getting some recommendations) and I think it looks loads better now. I also added something that I had always envisioned, but just now made it happen: a carousel view for projects!
+
+On mobile, the projects page now scrolls horizontally. ~~ cool ~~ 
+
+My next to-dos are to migrate the height calcs for all the pages to svh when on mobile so you don't have that tiny bit of overflow at the bottom of the screen. I'll need to do some research on what is truly the best option for this though, cause I want to make sure i implement the right option first so I don't have to keep returning to it (I'll have to return to it).
