@@ -18,6 +18,12 @@
         "link": "https://www.teeny-link.com/app"
     },
     {
+        "title": "Pokedex Application",
+        "tech": "React.js, Node.js, HTML, CSS, Github, APIs",
+        "description": "An application that fetches data from the PokeApi to display information on the Pokemon game series. Made using React, PokeApi.co, and Node.js.",
+        "link": "https://conner-huf.github.io/pokedex/"
+    },
+    {
         "title": "Asteroids Game",
         "tech": "Unity, C#",
         "description": "A game inspired by the asteroids arcade game. Built using Unity.",
@@ -28,12 +34,6 @@
         "tech": "Lua, APIs, Scripts",
         "description": "An addon I created for the popular MMO World of Warcraft. Displays the current mana points of the player in circumstances when it is not visible by default.",
         "link": "https://github.com/conner-huf/EverMana"
-    },
-    {
-        "title": "Pokedex Application",
-        "tech": "React.js, Node.js, HTML, CSS, Github, APIs",
-        "description": "An application that fetches data from the PokeApi to display information on the Pokemon game series. Made using React, PokeApi.co, and Node.js.",
-        "link": "https://conner-huf.github.io/pokedex/"
     },
     {
         "title": "Spotify Clone",
