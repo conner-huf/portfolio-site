@@ -8,7 +8,7 @@
     {
         "title": "Noodle",
         "tech": "React.js, Python, Flask, Github, Heroku, APIs",
-        "description": "A full-stack application for finding concerts in your local area. Uses Python Flask, React.js, Leaflet, TicketmasterAPI, SpotifyAPI, Heroku. (Currently in Development)",
+        "description": "A full-stack application for finding concerts in your local area. This is my largest scale project, and I'm hoping to link this with an affiliate code with ticketmaster if I can get approved at some point! I'm really proud of how this has turned out, and I continually improve it as I think of ideas. Uses Python Flask, React.js, Leaflet, TicketmasterAPI, SpotifyAPI, Heroku.",
         "link": "https://conner-huf.github.io/noodle/"
     },
     {
