@@ -14,25 +14,25 @@
     {
         "title": "Teeny Link",
         "tech": "React.js, HTML, CSS, Github, Heroku, Python, Flask, Firebase",
-        "description": "An application that can shorten a url. Uses Firebase to store target long URLs and generated short URLs. Made using React, Python Flask, Firebase, Heroku",
+        "description": "An application that can shorten a url. Uses Firebase to store target long URLs and generated short URLs. Made using React, Python Flask, Firebase, Heroku. This was a fun project that I mainly wanted to make so that I could create more consistent looking links to all of my things, and I wanted to learn more about how to use firebase. I have since limited the database access to read only to ensure that I'm not charged, so unfortunately links can no longer be created. But the links created in the first month still work.",
         "link": "https://www.teeny-link.com/app"
     },
     {
         "title": "Pokedex Application",
         "tech": "React.js, Node.js, HTML, CSS, Github, APIs",
-        "description": "An application that fetches data from the PokeApi to display information on the Pokemon game series. Made using React, PokeApi.co, and Node.js.",
+        "description": "An application that fetches data from the PokeApi to display information on the Pokemon game series. Made using React, PokeApi.co, and Node.js. This web app chugs through a lot of information to display the data, so it was a fun challenge to make it as efficient as possible.",
         "link": "https://conner-huf.github.io/pokedex/"
     },
     {
         "title": "Asteroids Game",
         "tech": "Unity, C#",
-        "description": "A game inspired by the asteroids arcade game. Built using Unity.",
+        "description": "A game inspired by the asteroids arcade game. Built using Unity. I really enjoy working with Unity, and I think this was a great way to get more acquainted with it. In my free time I like to play around with Unity and see what I can make, but this is the only complete project that I currently have available.",
         "link": "https://itzlumpz.itch.io/asteroids"
     },
     {
         "title": "Evermana WoW Addon",
         "tech": "Lua, APIs, Scripts",
-        "description": "An addon I created for the popular MMO World of Warcraft. Displays the current mana points of the player in circumstances when it is not visible by default.",
+        "description": "An addon I created for the popular MMO World of Warcraft. Displays the current mana points of the player in circumstances when it is not visible by default. I really like this project because I think it demonstrates a good approach to software solutions. I had an issue with the UI on WoW, I researched how I could fix it, and not only did I want to fix it, I acted on it.",
         "link": "https://github.com/conner-huf/EverMana"
     },
     {

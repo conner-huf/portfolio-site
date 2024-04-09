@@ -10,13 +10,13 @@
     justify-content: flex-start;
     transition: 0.25s;
     border-radius: 50%;
-    box-shadow: rgba(0, 204, 255, 0.25) 0px 0px 12px 5px;
 }
 
 .social-icon:hover {
     transform: scale(1.2) translateY(-0.2em) translateX(-0.5em);
     cursor: pointer;
     transition: 0.25s;
+    box-shadow: rgba(0, 204, 255, 0.25) 0px 0px 12px 5px;
 }
 
 @media (max-width: 1000px) {

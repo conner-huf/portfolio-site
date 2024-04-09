@@ -4,8 +4,10 @@ import { Main } from "./Components/Main/Main";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import { About } from "./Components/About/About";
 import { ProjectDisplay } from "./Components/ProjectDisplay/ProjectDisplay";
+import { ResumePage } from "./Components/ResumePage/ResumePage";
 
 import './App.css';
+
 
 function App() {
   return (
@@ -24,6 +26,9 @@ function App() {
           </Route>
           <Route path="/projects">
             <ProjectDisplay />
+          </Route>
+          <Route path="/resume">
+            <ResumePage />
           </Route>
         </Switch>
         <Footer />

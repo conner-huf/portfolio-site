@@ -4,7 +4,6 @@ import { Link } from 'react-router-dom'
 import { FaBars, FaTimes } from 'react-icons/fa';
 
 import './Navbar.css'
-import resume from '../../Assets/Resume.pdf'
 
 export const Navbar = () => {
 
@@ -24,7 +23,7 @@ export const Navbar = () => {
         <Link to='/' className="nav-link" onClick={showNavBar}>Home</Link>
         <Link to='/about' className="nav-link" onClick={showNavBar}>About Me</Link>
         <Link to='/projects' className="nav-link" onClick={showNavBar}>Projects</Link>
-        <a href={resume} download className="nav-link" onClick={showNavBar}>Resume</a>
+        <Link to='/resume' className="nav-link" onClick={showNavBar}>Resume</Link>
         <button className="nav-btn nav-close-btn" onClick={showNavBar}>
           <FaTimes />
         </button>

@@ -34,6 +34,12 @@
     width: 40vw;
     border-radius: .5rem;
     box-shadow: #ffffff83 0px 0px 5px;
+    transition: 0.3s;
+}
+
+.project-card-image:hover {
+    box-shadow: rgba(245, 255, 105, 0.75) 0px 0px 10px;
+    transition: 0.3s;
 }
 
 .project-card-description {
