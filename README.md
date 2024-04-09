@@ -55,3 +55,9 @@ I added some updated styling (after getting some recommendations) and I think it
 On mobile, the projects page now scrolls horizontally. ~~ cool ~~ 
 
 My next to-dos are to migrate the height calcs for all the pages to svh when on mobile so you don't have that tiny bit of overflow at the bottom of the screen. I'll need to do some research on what is truly the best option for this though, cause I want to make sure i implement the right option first so I don't have to keep returning to it (I'll have to return to it).
+
+### 4/9/24
+
+--- 
+
+I talked with someone about this site, and they recommended that I put together a resume page where people can just read resume lines without downloading the resume (which is how it was implemented before) so I went with that. I'm generally good with how it looks right now, but I'm still thinking on how exactly I want everything displayed. I first just stream-of-conciousness wrote out all the things I wanted to say about my resume, then organized it into sections and edited a bit, but it looked like a huge wall of text. So I tried a few things, but ended up with having the description blurred until you hover over the appropriate resume lines, then the description comes into focus. I like it, but I think it could use some refining. I'm going to keep trying different things and try to come up with a better solution, but this works for now!
