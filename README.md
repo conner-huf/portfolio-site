@@ -61,3 +61,9 @@ My next to-dos are to migrate the height calcs for all the pages to svh when on 
 --- 
 
 I talked with someone about this site, and they recommended that I put together a resume page where people can just read resume lines without downloading the resume (which is how it was implemented before) so I went with that. I'm generally good with how it looks right now, but I'm still thinking on how exactly I want everything displayed. I first just stream-of-conciousness wrote out all the things I wanted to say about my resume, then organized it into sections and edited a bit, but it looked like a huge wall of text. So I tried a few things, but ended up with having the description blurred until you hover over the appropriate resume lines, then the description comes into focus. I like it, but I think it could use some refining. I'm going to keep trying different things and try to come up with a better solution, but this works for now!
+
+### 4/12/24
+
+---
+
+I've gone through my bigger projects and implemented testing with jest. So I implemented some tests with the portfolio site as well!
