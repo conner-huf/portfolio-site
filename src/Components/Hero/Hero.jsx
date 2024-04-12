@@ -1,6 +1,6 @@
 import React from 'react'
 import './Hero.css'
-import avatar from '../../../Assets/wave_avatar.gif'
+import avatar from '../../Assets/wave_avatar.gif'
 
 export const Hero = () => {
   return (
