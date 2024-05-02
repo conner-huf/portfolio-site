@@ -43,15 +43,7 @@ ul > h3 {
     font-size: 1rem;
 }
 
-.hovered {
-    filter: blur(3px);
-    transition: 0.3s;
-}
 
-.unhovered {
-    filter: blur(0);
-    transition: 0.3s;
-}
 
 .resume-page-right > hr {
     width: 75%;
