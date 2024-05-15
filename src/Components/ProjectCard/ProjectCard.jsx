@@ -9,6 +9,7 @@ import evermanaPic from '../../Assets/project-wow-addon.png'
 import pokedexPic from '../../Assets/project-pokedex.png'
 import spotifyPic from '../../Assets/project-spotify-clone.png'
 import restaurantPic from '../../Assets/project-restaurant-site.png'
+import connerapiPic from '../../Assets/project-connerapi.png'
 
 const images = {
     "Portfolio Site": portfolioPic,
@@ -19,6 +20,7 @@ const images = {
     "Pokedex Application": pokedexPic,
     "Spotify Clone": spotifyPic,
     "Restaurant Site": restaurantPic,
+    "Conner API": connerapiPic,
 }
 
 export const ProjectCard = ({ index, project }) => {

@@ -6,6 +6,12 @@
         "link": "https://conner-huf.github.io/portfolio-site/"
     },
     {
+        "title": "Conner API",
+        "tech": ".NET, C#, Github, Azure Web Apps",
+        "description": "An API I created to store and retrieve data for my projects. I wanted to learn more about how to create an API, and I specifically wanted to get better at working with .NET and Microsoft Azure. I'm already working on expanding it with a database and blob storage, but for now, I'm pumped with how it works.",
+        "link": "https://app-connerapi-dev.azurewebsites.net/projects"
+    },
+    {
         "title": "Noodle",
         "tech": "React.js, Python, Flask, Github, Heroku, APIs",
         "description": "A full-stack application for finding concerts in your local area. This is my largest scale project, and I'm hoping to link this with an affiliate code with ticketmaster if I can get approved at some point! I'm really proud of how this has turned out, and I continually improve it as I think of ideas. Uses Python Flask, React.js, Leaflet, TicketmasterAPI, SpotifyAPI, Heroku.",
