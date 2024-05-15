@@ -9,7 +9,7 @@
         "title": "Conner API",
         "tech": ".NET, C#, Github, Azure Web Apps",
         "description": "An API I created to store and retrieve data for my projects. I wanted to learn more about how to create an API, and I specifically wanted to get better at working with .NET and Microsoft Azure. I'm already working on expanding it with a database and blob storage, but for now, I'm pumped with how it works.",
-        "link": "https://app-connerapi-dev.azurewebsites.net/projects"
+        "link": "https://app-connerapi-dev.azurewebsites.net/resume"
     },
     {
         "title": "Noodle",
