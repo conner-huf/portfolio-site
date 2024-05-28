@@ -1,12 +1,19 @@
 import React, {useEffect, useRef } from 'react'
+import { useQuery } from 'react-query';
 import './ProjectDisplay.css'
 import { ProjectCard } from '../ProjectCard/ProjectCard'
 
-import projects from '../../Assets/projects.json'
+
+
+const fetchProjects = async () => {
+  const res = await fetch('https://app-connerapi-dev.azurewebsites.net/projects');
+  return res.json();
+}
 
 export const ProjectDisplay = () => {
 
   const containerRef = useRef(null);
+  const { data: projects, isLoading } = useQuery('projects', fetchProjects);
 
   useEffect(() => {
     const container = containerRef.current;
@@ -20,6 +27,8 @@ export const ProjectDisplay = () => {
       }, 500);
     }
   }, []);
+
+  if (isLoading) return 'Loading...';
 
   return (
     <div className='project-backdrop' ref={containerRef}>
