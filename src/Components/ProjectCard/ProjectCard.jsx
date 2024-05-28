@@ -11,6 +11,7 @@ import spotifyPic from '../../Assets/project-spotify-clone.png'
 import restaurantPic from '../../Assets/project-restaurant-site.png'
 import connerapiPic from '../../Assets/project-connerapi.png'
 import ecommercePic from '../../Assets/project-e-commerce-site.png'
+import threedPic from '../../Assets/project-3dmodelviewer.png'
 
 const images = {
     "Portfolio Site": portfolioPic,
@@ -23,7 +24,8 @@ const images = {
     "Spotify Clone": spotifyPic,
     "Restaurant Demo Site": restaurantPic,
     "PokeBattle": pokedexPic,
-    "E-Commerce Demo Site": ecommercePic
+    "E-Commerce Demo Site": ecommercePic,
+    "3D Model Viewer": threedPic
 }
 
 export const ProjectCard = ({ index, project }) => {
