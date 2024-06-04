@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio-site/static/css/main.55bb143d.css",
-    "main.js": "/portfolio-site/static/js/main.1132dffa.js",
+    "main.css": "/portfolio-site/static/css/main.bca18170.css",
+    "main.js": "/portfolio-site/static/js/main.18aa2f0b.js",
     "static/js/787.86751347.chunk.js": "/portfolio-site/static/js/787.86751347.chunk.js",
     "static/media/project-restaurant-site.png": "/portfolio-site/static/media/project-restaurant-site.d34a7ffce2b882273089.png",
     "static/media/project-noodle.png": "/portfolio-site/static/media/project-noodle.6b78221e3c2503e9694b.png",
@@ -16,14 +16,13 @@
     "static/media/project-connerapi.png": "/portfolio-site/static/media/project-connerapi.0b764cd683d60435b3c9.png",
     "static/media/project-wow-addon.png": "/portfolio-site/static/media/project-wow-addon.8f37d43c308a7a8c2b4b.png",
     "static/media/project-teenylink.png": "/portfolio-site/static/media/project-teenylink.d12802f6612ea17d7262.png",
-    "static/media/wave_avatar.gif": "/portfolio-site/static/media/wave_avatar.051ff2ce613a3160e8de.gif",
     "index.html": "/portfolio-site/index.html",
-    "main.55bb143d.css.map": "/portfolio-site/static/css/main.55bb143d.css.map",
-    "main.1132dffa.js.map": "/portfolio-site/static/js/main.1132dffa.js.map",
+    "main.bca18170.css.map": "/portfolio-site/static/css/main.bca18170.css.map",
+    "main.18aa2f0b.js.map": "/portfolio-site/static/js/main.18aa2f0b.js.map",
     "787.86751347.chunk.js.map": "/portfolio-site/static/js/787.86751347.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.55bb143d.css",
-    "static/js/main.1132dffa.js"
+    "static/css/main.bca18170.css",
+    "static/js/main.18aa2f0b.js"
   ]
 }
