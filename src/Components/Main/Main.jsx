@@ -1,4 +1,5 @@
 import React from 'react'
+import './Main.css'
 import avatar from '../../Assets/wave_avatar.gif'
 
 export const Main = () => {
@@ -9,7 +10,7 @@ export const Main = () => {
       </aside>
       <aside className='hero-text'>
         <h3>I'm <span>Conner</span></h3>
-        <p>SOFTWARE DEVELOPER</p>
+        <p>SOFTWARE ENGINEER</p>
       </aside>
     </div>
   )

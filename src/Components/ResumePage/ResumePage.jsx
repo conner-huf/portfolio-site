@@ -1,15 +1,14 @@
-import React, { useState } from 'react'
+import React from 'react'
 import './ResumePage.css'
 
 import resume from '../../Assets/Resume.pdf'
 
 export const ResumePage = () => {
-  const [hoveredSection, setHoveredSection] = useState('');
 
   return (
     <div className='resume-page-container'>
       <div className='resume-page-left'>
-        <ul><h3 data-testid='tech-skill' className='tech-skill' onMouseEnter={() => setHoveredSection('tech-skill')} onMouseLeave={() => setHoveredSection('')}>Technical Skills</h3><div></div>
+        <ul><h3 data-testid='tech-skill' className='tech-skill'>Technical Skills</h3><div></div>
           <li>Python</li>
           <li>JavaScript</li>
           <li>HTML/CSS</li>
@@ -17,7 +16,7 @@ export const ResumePage = () => {
           <li>React</li>
           <li>Node.js</li>
         </ul>
-        <ul><h3 data-testid='edu-exp' className='edu-exp' onMouseEnter={() => setHoveredSection('edu-exp')} onMouseLeave={() => setHoveredSection('')}>Education</h3>
+        <ul><h3 data-testid='edu-exp' className='edu-exp'>Education</h3>
           <li><h4>Southern New Hampshire University</h4></li>
             <ul>
               <li>Bachelor's of Computer Science</li>
@@ -30,7 +29,7 @@ export const ResumePage = () => {
               <li>Data Analytics - Google</li>
             </ul>
         </ul>
-        <ul><h3 data-testid='work-exp' className='work-exp' onMouseEnter={() => setHoveredSection('work-exp')} onMouseLeave={() => setHoveredSection('')}>Work Experience</h3>
+        <ul><h3 data-testid='work-exp' className='work-exp'>Work Experience</h3>
           <li><h4>Health Manager</h4>
             <ul>
               <li>Sunbeam Family Services | 2019 - 2022</li>

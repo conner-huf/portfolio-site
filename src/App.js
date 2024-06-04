@@ -1,7 +1,6 @@
 import { Footer } from "./Components/Footer/Footer";
 import { Navbar } from "./Components/Navbar/Navbar";
 import { Main } from "./Components/Main/Main";
-import { Hero } from "./Components/Hero/Hero";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import { About } from "./Components/About/About";
 import { ProjectDisplay } from "./Components/ProjectDisplay/ProjectDisplay";
@@ -17,7 +16,7 @@ function App() {
 
         <Switch>
           <Route exact path="/portfolio-site/">
-            <Hero />
+            <Main />
           </Route>
           <Route exact path="/">
             <Main />

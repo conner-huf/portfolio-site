@@ -2,7 +2,7 @@ import React, {useEffect, useRef } from 'react'
 import { useQuery } from 'react-query';
 import './ProjectDisplay.css'
 import { ProjectCard } from '../ProjectCard/ProjectCard'
-
+import { ThreeDots } from 'react-loader-spinner';
 
 
 const fetchProjects = async () => {
@@ -28,7 +28,24 @@ export const ProjectDisplay = () => {
     }
   }, []);
 
-  if (isLoading) return 'Loading...';
+  if (isLoading) {
+    // TODO: Add a loading thing
+    return (
+      <div className='loading-backdrop'>
+        <ThreeDots
+            visible={true}
+            height="50"
+            width="50"
+            color="#ffffff"
+            radius="9"
+            ariaLabel="three-dots-loading"
+            wrapperStyle={{}}
+            wrapperClass=""
+          />
+        Fetching Projects from ConnerAPI...
+      </div>
+    )
+  }
 
   return (
     <div className='project-backdrop' ref={containerRef}>

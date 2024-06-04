@@ -1,5 +1,5 @@
 import React, { useRef } from 'react'
-import { Logo } from '../Logo/Logo';
+import { Socials } from '../Socials/Socials';
 import { Link } from 'react-router-dom'
 import { FaBars, FaTimes } from 'react-icons/fa';
 
@@ -15,7 +15,7 @@ export const Navbar = () => {
 
   return (
     <header>
-      <Logo className="socials"/>
+      <Socials className="socials"/>
       <button className="nav-btn" onClick={showNavBar}>
         <FaBars />
       </button>

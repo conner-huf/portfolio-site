@@ -1,3 +1,11 @@
+.loading-backdrop {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+}
+
 @media (max-width: 1000px) {
 
     .project-backdrop {
