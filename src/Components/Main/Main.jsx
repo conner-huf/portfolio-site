@@ -11,7 +11,6 @@ export const Main = () => {
       <aside className='home-text'>
         <h3>I'm <span>Conner</span></h3>
         <p>SOFTWARE ENGINEER</p>
-        <p>Added CI/CD</p>
       </aside>
     </div>
   )
