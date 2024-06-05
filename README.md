@@ -67,3 +67,9 @@ I talked with someone about this site, and they recommended that I put together 
 ---
 
 I've gone through my bigger projects and implemented testing with jest. So I implemented some tests with the portfolio site as well!
+
+### 6/5/24
+
+--- 
+
+I added a yaml file to handle CI/CD with Github actions. In the past I was manually running a npm run deploy script every time I wanted to make changes, but now it auto updates and deploys every time I push changes to main!
