@@ -1,7 +1,7 @@
 import React from 'react'
 import './ResumePage.css'
 
-import resume from '../../Assets/Resume.pdf'
+import resume from '../../Assets/Resume6-18.pdf'
 
 export const ResumePage = () => {
 
@@ -24,20 +24,21 @@ export const ResumePage = () => {
             </ul>
           <li><h4>Certifications</h4></li>
             <ul>
+              <li>AZ-900 - Microsoft</li>
               <li>Front-End-Development - Meta</li>
               <li>Full-Stack-Development - IBM</li>
               <li>Data Analytics - Google</li>
             </ul>
         </ul>
         <ul><h3 data-testid='work-exp' className='work-exp'>Work Experience</h3>
+          <li><h4>Computer Systems Operator</h4>
+            <ul>
+              <li>Army National Guard | 2016 - 2022</li>
+            </ul>
+          </li>
           <li><h4>Health Manager</h4>
             <ul>
               <li>Sunbeam Family Services | 2019 - 2022</li>
-            </ul>
-          </li>
-          <li><h4>Mortar Squad Sergeant</h4>
-            <ul>
-              <li>Army National Guard | 2016 - 2022</li>
             </ul>
           </li>
         </ul>
