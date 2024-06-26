@@ -24,10 +24,9 @@ export const ResumePage = () => {
             </ul>
           <li><h4>Certifications</h4></li>
             <ul>
-              <li>AZ-900 - Microsoft</li>
+              <li>AZ-900: Azure Fundamentals - Microsoft</li>
               <li>Front-End-Development - Meta</li>
               <li>Full-Stack-Development - IBM</li>
-              <li>Data Analytics - Google</li>
             </ul>
         </ul>
         <ul><h3 data-testid='work-exp' className='work-exp'>Work Experience</h3>
