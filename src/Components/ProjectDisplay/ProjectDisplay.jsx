@@ -1,19 +1,20 @@
-import React, {useEffect, useRef } from 'react'
+import React, { useEffect, useRef } from 'react'
 import { useQuery } from 'react-query';
 import './ProjectDisplay.css'
 import { ProjectCard } from '../ProjectCard/ProjectCard'
 import { ThreeDots } from 'react-loader-spinner';
 
+const projectEndpoint = "https://unifiedbackendwebapp-hqerfscxedd0asfj.eastus-01.azurewebsites.net/resume/projects"
 
 const fetchProjects = async () => {
-  const res = await fetch('https://app-connerapi-dev.azurewebsites.net/projects');
+  const res = await fetch(projectEndpoint);
   return res.json();
 }
 
 export const ProjectDisplay = () => {
 
   const containerRef = useRef(null);
-  const { data: projects, isLoading } = useQuery('projects', fetchProjects);
+  const { data, isLoading, error } = useQuery('projects', fetchProjects);
 
   useEffect(() => {
     const container = containerRef.current;
@@ -45,6 +46,16 @@ export const ProjectDisplay = () => {
         Fetching Projects from ConnerAPI...
       </div>
     )
+  }
+
+  if (error) {
+    return <div>Error loading projects: {error.message}</div>;
+  }
+
+  const projects = data?.projects;
+
+  if (!Array.isArray(projects)) {
+    return <div>No projects available</div>;
   }
 
   return (
